@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -13,101 +13,7 @@
   </style>
 </head>
 
-<body class="container-fluid p-0" style="background-color: whitesmoke; min-height: 100%;">
-  <!--Navbar-->
-  <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #38546b;">
-    <a class="navbar-brand" href="all_challenges.html">
-    </a>
-    <ul class="navbar-nav mr-5">
-      <li class="nav-item active mr-5">
-        <a class="nav-link" style="font-size: 20px;" href="all_challenges.html">Practice</a>
-      </li>
-      <li class="nav-item mr-5">
-        <a class="nav-link" style="font-size: 20px;" href="#">Learn</a>
-      </li>
-      <li class="nav-item mr-5">
-        <a class="nav-link" style="font-size: 20px;" href="#">Account</a>
-      </li>
-    </ul>
-  </nav>
-
-  <div class="container-fluid">
-    <div class="row ml-5 mt-3">
-      <div class="col-2 p-0 d-inline-block" style="width: 200px;">
-        <div class="card">
-          <div class="card-body">
-            <h3 class="card-title text-center mb-0">Traffic Spike</h3>
-            <h6 class="font-weight-light font-italic text-center" id="qNum">Question 1</h6>
-            <p class="card-text" id="qTxt1" style="font-size: 14px;">A traffic anomaly has been spotted on this network!</p>
-            <p class="card-text" id="qTxt2" style="font-size: 14px;">Enter the <b>source <a href="#" onclick="showModal()">IP address</a></b> from where the anomaly originates</p>
-            <form name="f1" id="ansForm" class="text-center">
-              <div class="form-group text-left">
-                <p class="font-weight-light font-italic color-black mb-1">Answer:</p>
-                <input type="default-text" class="form-control py-1" name="ans" id="ansTxt" placeholder="Source IP">
-              </div>
-              <button type="button" id="ansBtn" class="btn btn-primary btn-sm" onclick="checkAns1()">Submit</button>
-            </form>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-9" style="width: 100%">
-        <div class="card">
-          <div id="chart" style="width: 100%;"></div>
-          <div id="chart2" style="display: none;">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row mt-3">
-      <div class="col d-flex justify-content-center">
-        <button type="button" class="btn btn-primary btn mb-5" id="change_viz_button" onclick="changeViz1()">Next</button>
-        <p class="ml-2 mb-0 pt-2 font-weight-light font-italic color-black" id="viz_number">1 out of 2</p>
-      </div>
-    </div>
-
-  <!--Modal-->
-  <div class="modal fade" id="ansModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Correct! Great Job!</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body" id="mdlTxt">
-          Ready to move onto the next question? Click the 'Next' button to go onto the next question!
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary" id="mdlNxt" onclick="nxtQ1()" data-dismiss="modal">Next</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--Education Modal for Traffic Spike-->
-  <div class="modal fade" id="edu_Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="edu_Modal_Title">What is an IP Address?</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body" id="edu_Modal_Text">
-          An IP Address is a number (EX: 8.8.8.8) given to specific computers or networks for identification purposes. <br><br>
-          
-          Learn more about IP Addresses <a href="https://www.geeksforgeeks.org/what-is-an-ip-address/">here!</a>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
+<body>
+  <p>yuh</p>
 </body>
 </html>
